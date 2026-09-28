@@ -202,10 +202,7 @@ p{ color:var(--white-dim); }
 .mobile-menu.is-open a{ opacity:1; transform:none; }
 .mobile-menu .mm-foot{ margin-top:2rem; display:flex; flex-direction:column; gap:1rem; opacity:0; transform:translateY(16px); transition:opacity var(--dur-med) var(--ease-out) , transform var(--dur-med) var(--ease-out); }
 .mobile-menu.is-open .mm-foot{ opacity:1; transform:none; transition-delay:.35s; }
-.mobile-menu .mm-foot a.btn{
-  display:inline-flex; align-items:center; justify-content:center;
-  width:100%; padding:.95em 1.8em; font-size:.85rem; border-bottom:none;
-}
+.mobile-menu .mm-foot a.btn{ text-align:center; }
 
 /* ---------- hero ---------- */
 .hero{
